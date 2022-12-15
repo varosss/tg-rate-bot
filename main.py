@@ -5,7 +5,7 @@ from telegram.ext import filters, MessageHandler, ApplicationBuilder, CommandHan
 from lxml import etree
 
 
-TOKEN = "5615683432:AAGJIhj27RdE4nGvGG2bWxDd7OXyjgfsrTw"
+TOKEN = "TOKEN"
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
