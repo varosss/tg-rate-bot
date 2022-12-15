@@ -13,7 +13,6 @@ logging.basicConfig(
 )
 
 def api_get_rate():
-    required = {"R01235", "R01239"}
     rate = []
 
     xml = requests.get("http://www.cbr.ru/scripts/XML_daily.asp").content
