@@ -21,7 +21,6 @@ def api_get_rate():
     for valute in root:
         id = valute.get("ID")
 
-        # if id in required:
         rate.append(
             {
             "nominal": valute[2].text,
